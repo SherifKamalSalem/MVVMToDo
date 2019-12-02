@@ -120,7 +120,6 @@
 				72F088FF6F71EC032B5D28E3 /* Pods-QuickTodo.debug.xcconfig */,
 				44AFAD7666098345B3EA5735 /* Pods-QuickTodo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -215,6 +214,7 @@
 				TargetAttributes = {
 					3D932AFE1E4D245600E4BC3D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ETH2M29NBU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -224,6 +224,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -471,7 +472,7 @@
 			baseConfigurationReference = 72F088FF6F71EC032B5D28E3 /* Pods-QuickTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ETH2M29NBU;
 				INFOPLIST_FILE = QuickTodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.QuickTodo;
@@ -485,7 +486,7 @@
 			baseConfigurationReference = 44AFAD7666098345B3EA5735 /* Pods-QuickTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ETH2M29NBU;
 				INFOPLIST_FILE = QuickTodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.QuickTodo;
