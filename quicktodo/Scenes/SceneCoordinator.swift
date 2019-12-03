@@ -80,7 +80,7 @@ class SceneCoordinator: SceneCoordinatorType {
       .take(1)
       .ignoreElements()
   }
-
+  
   @discardableResult
   func pop(animated: Bool) -> Completable {
     let subject = PublishSubject<Void>()
